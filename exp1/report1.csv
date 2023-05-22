@@ -1,0 +1,125 @@
+
+Question,4. What are the common symptoms of COVID-19?,,,
+Reference text,Headache General weakness Cough Loss of smell and taste Vomiting Difficulty breathing,,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,Headache General weakness Cough Loss of smell and taste Vomiting Difficulty breathing,COMMON SYMPTOMS Fever Cough General malaise Loss of taste or smell UN COMMON SYMPTOMS: Sore throat Headache Diarrhea Skin rash Irritated eyes SYMPTOMS - COMPLICATIONS: Difficulty breathing or dyspnea Lethargy Chest pain,0.7371243,0.5479515
+2,Headache General weakness Cough Loss of smell and taste Vomiting Difficulty breathing,Headache General weakness Cough Loss of smell and taste Vomiting Difficulty breathing,0.99999964,0.4816375
+3,Headache General weakness Cough Loss of smell and taste Vomiting Difficulty breathing,Flu-like symptoms plus loss of taste and smell.,0.7348909,0.5184802
+3,Headache General weakness Cough Loss of smell and taste Vomiting Difficulty breathing,Also pain in the lung area and shortness of breath,0.56392,0.4849732
+4,Headache General weakness Cough Loss of smell and taste Vomiting Difficulty breathing,"Cough, fever, myalgia, dyspnea, malaise.",0.6445761,0.6403417
+
+Question,19. Have you had any discomfort after vaccination?,,,
+Reference text,fever and muscle pain,,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,fever and muscle pain,"Yes, general malaise for 1 night .",0.25653636,0.36220476
+2,fever and muscle pain,"Yes, in the second vaccination I had a fever and muscle pain.",0.54355067,0.7163057
+3,fever and muscle pain,Pain at the injection site,0.3471114,0.5508833
+4,fever and muscle pain,Yes.,0.001767125,0.08461962
+4,fever and muscle pain,"General malaise, fever, myalgia, headache.",0.5425809,0.3206733
+
+Question,1. How is COVID 19 passed or transmitted to people? ,,,
+Reference text,It is transmitted by respiratory droplets that contain the virus. ,,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,It is transmitted by respiratory droplets that contain the virus.," Direct contact, transmission by air and by droplets.",0.55684155,0.43290943
+2,It is transmitted by respiratory droplets that contain the virus., Through indirect or direct contact with secretions infected by the virus.,0.7537317,0.7068597
+3,It is transmitted by respiratory droplets that contain the virus.,By air with virus particles present in the environment and less frequently with virus particles on surfaces,0.72867465,0.6494765
+4,It is transmitted by respiratory droplets that contain the virus.,It is transmitted by respiratory droplets that contain the virus.,1.0000002,0.70454633
+
+Question,10. How do masks help to avoid getting sick with COVID 19?,,,
+Reference text,"They prevent transmission to a certain extent if we have the virus by blocking a good part of the particles that we emit that may contain the virus. If one does not have the virus, it helps to avoid the entry of similar particles to the mouth or nose. ",,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,They prevent transmission to a certain extent if we have the virus by blocking a good part of the particles that we emit that may contain the virus.," Avoiding transmission by direct contact, transmission by air and by droplets",0.4360075,0.21145192
+1,"If one does not have the virus, it helps to avoid the entry of similar particles to the mouth or nose."," Avoiding transmission by direct contact, transmission by air and by droplets",0.29112834,0.21145192
+2,They prevent transmission to a certain extent if we have the virus by blocking a good part of the particles that we emit that may contain the virus., They prevent the transfer of contaminated secretions from one person to another.,0.6523847,0.43864506
+2,"If one does not have the virus, it helps to avoid the entry of similar particles to the mouth or nose.", They prevent the transfer of contaminated secretions from one person to another.,0.6489738,0.43864506
+3,They prevent transmission to a certain extent if we have the virus by blocking a good part of the particles that we emit that may contain the virus.,They prevent transmission to a certain extent if we have the virus by blocking a good part of the particles that we emit that may contain the virus.,1.0,0.50290585
+3,They prevent transmission to a certain extent if we have the virus by blocking a good part of the particles that we emit that may contain the virus.,"If one does not have the virus, it helps to avoid the entry of similar particles to the mouth or nose.",0.6549787,0.5708854
+3,"If one does not have the virus, it helps to avoid the entry of similar particles to the mouth or nose.",They prevent transmission to a certain extent if we have the virus by blocking a good part of the particles that we emit that may contain the virus.,0.6549786,0.50290585
+3,"If one does not have the virus, it helps to avoid the entry of similar particles to the mouth or nose.","If one does not have the virus, it helps to avoid the entry of similar particles to the mouth or nose.",0.9999999,0.5708854
+4,They prevent transmission to a certain extent if we have the virus by blocking a good part of the particles that we emit that may contain the virus.,It is a barrier method that prevents virus particles from coming into contact with the respiratory tract.,0.7007449,0.5200401
+4,"If one does not have the virus, it helps to avoid the entry of similar particles to the mouth or nose.",It is a barrier method that prevents virus particles from coming into contact with the respiratory tract.,0.75820905,0.5200401
+
+Question,11. Is it possible to reuse the masks?,,,
+Reference text,"Yes it is possible but only to a certain extent depending on the type of mask for a limited time, but it is not advisable.",,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,"Yes it is possible but only to a certain extent depending on the type of mask for a limited time, but it is not advisable."," The use of a mask depends on the individual's site of exposure, preferably they should be use surgical masks or disposable KN95.",0.49071923,0.35535783
+2,"Yes it is possible but only to a certain extent depending on the type of mask for a limited time, but it is not advisable.",No.,0.14678568,0.19587666
+3,"Yes it is possible but only to a certain extent depending on the type of mask for a limited time, but it is not advisable.","Yes it is possible but only to a certain extent depending on the type of mask for a limited time, but it is not advisable.",1.0000005,0.63671315
+4,"Yes it is possible but only to a certain extent depending on the type of mask for a limited time, but it is not advisable.","No, each mask has a useful life time",0.6371677,0.68404233
+
+Question,3. How long does it take between contact with a patient and the appearance of COVID-19 symptoms? ,,,
+Reference text,"The incubation period ranges from 1 to 14 days. The most common is that it is 5-6 days, and in some rare cases it has been reported that it is longer than 14 days.",,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,The incubation period ranges from 1 to 14 days.,A range of 5 to 10 days with a common average of 7 days.,0.567613,0.39117435
+1,"The most common is that it is 5-6 days, and in some rare cases it has been reported that it is longer than 14 days.",A range of 5 to 10 days with a common average of 7 days.,0.8621383,0.39117435
+2,The incubation period ranges from 1 to 14 days.,Between six and fifteen days,0.5600291,0.38288885
+2,"The most common is that it is 5-6 days, and in some rare cases it has been reported that it is longer than 14 days.",Between six and fifteen days,0.8329229,0.38288885
+3,The incubation period ranges from 1 to 14 days.,"About 3 to 4 days, but it can take up to 2 weeks",0.44948405,0.29264367
+3,"The most common is that it is 5-6 days, and in some rare cases it has been reported that it is longer than 14 days.","About 3 to 4 days, but it can take up to 2 weeks",0.86256015,0.29264367
+4,The incubation period ranges from 1 to 14 days.,It can take between 2 to 14 days.,0.45844898,0.33795878
+4,"The most common is that it is 5-6 days, and in some rare cases it has been reported that it is longer than 14 days.",It can take between 2 to 14 days.,0.85227036,0.33795878
+
+Question,16. What is vaccination?,,,
+Reference text,"It is the process of acquired immunization, defense antibodies against the virus.",,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,"It is the process of acquired immunization, defense antibodies against the virus.","Immunization is the process by which a person becomes immune or resistant to an infectious disease, usually through the administration of a vaccine.",0.7231348,0.6675366
+1,"It is the process of acquired immunization, defense antibodies against the virus.",Vaccines stimulate the body's own immune system to protect the person against infection or disease.,0.5730574,0.5881969
+1,"It is the process of acquired immunization, defense antibodies against the virus.",later.,-0.018000092,0.021709738
+1,"It is the process of acquired immunization, defense antibodies against the virus.",WHO,0.028484711,0.06266469
+2,"It is the process of acquired immunization, defense antibodies against the virus.","It is the process of acquired immunization, defense antibodies against the virus.",1.0000002,0.59129584
+3,"It is the process of acquired immunization, defense antibodies against the virus.",The procedure for inoculating people with viruses or variants of genetic material to achieve antibody resistance,0.71976185,0.50045437
+4,"It is the process of acquired immunization, defense antibodies against the virus.",It is the process by which a vaccine is administered so that a person or animal becomes resistant or immune to a disease.,0.81098413,0.62921226
+
+Question,8. When should a mask be used? ,,,
+Reference text,"Especially in closed public places, but it is also useful in outdoor public places.",,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,"Especially in closed public places, but it is also useful in outdoor public places.",Whenever we are in contact with another person.,0.3162263,0.17754519
+2,"Especially in closed public places, but it is also useful in outdoor public places.",All the time when leaving home.,0.33160987,0.04774323
+3,"Especially in closed public places, but it is also useful in outdoor public places.","Especially in closed public places, but it is also useful in outdoor public places",0.9961287,0.30230403
+4,"Especially in closed public places, but it is also useful in outdoor public places.",When we are in public places where social distancing cannot be maintained.,0.4252069,0.22650017
+
+Question,6. When should medical attention be sought for a person suspected of being infected with COVID-19? ,,,
+Reference text,If symptoms such as shortness of breath or lack of oxygenation occur,,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,If symptoms such as shortness of breath or lack of oxygenation occur,Medical attention should be sought according to the symptoms in the different levels of health care.,0.43293953,0.55389065
+2,If symptoms such as shortness of breath or lack of oxygenation occur,When the first symptoms have appeared and you suspect that you have been in contact with a positive COVID-19 patient.,0.3360474,0.7176074
+3,If symptoms such as shortness of breath or lack of oxygenation occur,If symptoms such as shortness of breath or lack of oxygenation occur,1.0000005,0.3815238
+4,If symptoms such as shortness of breath or lack of oxygenation occur,"Having a very high fever that does not settle to medication, having significant dyspnea.",0.62915075,0.5401678
+
+Question,17. For what reasons should or should not people be vaccinated? ,,,
+Reference text,"The two main reasons to get vaccinated are to protect ourselves and to protect those around us. Because not everyone can get vaccinated, including very young babies, those who are seriously ill, or have certain allergies. They depend on others being vaccinated to make sure they too are safe from vaccine-preventable diseases.",,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,The two main reasons to get vaccinated are to protect ourselves and to protect those around us.,They must be vaccinated since it is one of the most effective procedures for the prevention of infectious diseases.,0.7453582,0.62695336
+1,"Because not everyone can get vaccinated, including very young babies, those who are seriously ill, or have certain allergies.",They must be vaccinated since it is one of the most effective procedures for the prevention of infectious diseases.,0.65331656,0.62695336
+1,They depend on others being vaccinated to make sure they too are safe from vaccine-preventable diseases.,They must be vaccinated since it is one of the most effective procedures for the prevention of infectious diseases.,0.71888506,0.62695336
+2,The two main reasons to get vaccinated are to protect ourselves and to protect those around us.,"Yes, they must be vaccinated, to stop the infections in the population.",0.6663623,0.5745067
+2,"Because not everyone can get vaccinated, including very young babies, those who are seriously ill, or have certain allergies.","Yes, they must be vaccinated, to stop the infections in the population.",0.5722461,0.5745067
+2,They depend on others being vaccinated to make sure they too are safe from vaccine-preventable diseases.,"Yes, they must be vaccinated, to stop the infections in the population.",0.67245823,0.5745067
+3,The two main reasons to get vaccinated are to protect ourselves and to protect those around us.,You should be vaccinated to prevent the spread of a disease or lessen symptoms in the event of contracting a disease.,0.8701005,0.72219884
+3,The two main reasons to get vaccinated are to protect ourselves and to protect those around us.,In addition to eventually eradicating the disease,0.35757792,0.38975856
+3,"Because not everyone can get vaccinated, including very young babies, those who are seriously ill, or have certain allergies.",You should be vaccinated to prevent the spread of a disease or lessen symptoms in the event of contracting a disease.,0.69950044,0.72219884
+3,"Because not everyone can get vaccinated, including very young babies, those who are seriously ill, or have certain allergies.",In addition to eventually eradicating the disease,0.23406231,0.38975856
+3,They depend on others being vaccinated to make sure they too are safe from vaccine-preventable diseases.,You should be vaccinated to prevent the spread of a disease or lessen symptoms in the event of contracting a disease.,0.68429995,0.72219884
+3,They depend on others being vaccinated to make sure they too are safe from vaccine-preventable diseases.,In addition to eventually eradicating the disease,0.34903997,0.38975856
+4,The two main reasons to get vaccinated are to protect ourselves and to protect those around us.,People who have an allergy to any of the components of the vaccine or a state of immunosuppression should not be vaccinated without the permission of their treating physician.,0.569702,0.5149864
+4,"Because not everyone can get vaccinated, including very young babies, those who are seriously ill, or have certain allergies.",People who have an allergy to any of the components of the vaccine or a state of immunosuppression should not be vaccinated without the permission of their treating physician.,0.7201381,0.5149864
+4,They depend on others being vaccinated to make sure they too are safe from vaccine-preventable diseases.,People who have an allergy to any of the components of the vaccine or a state of immunosuppression should not be vaccinated without the permission of their treating physician.,0.6118519,0.5149864
+
+Question,"20.1. If you recommend vaccination or not, why or why not?",,,
+Reference text,It is the only effective way to stop pandemics.,,,
+
+Serial,Reference text,User Text,Ref Sim Score,Qs Sim Score
+1,It is the only effective way to stop pandemics.,"It is one of the most effective procedures for the prevention of infectious diseases, such as COVID-19",0.6266521,0.47904024
+2,It is the only effective way to stop pandemics.,"There is no risk when getting vaccinated, vaccination is the most important preventive measure both for personal care",0.32991013,0.6945206
+3,It is the only effective way to stop pandemics.,To prevent them from spreading or to end the pandemic,0.7166238,0.4586141
+4,It is the only effective way to stop pandemics.,It is the only effective way to stop pandemics.,1.0000002,0.50376153
